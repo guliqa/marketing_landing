@@ -446,13 +446,14 @@
 }
 
 .touch {
-    padding-top: 150px;
+    height: 808px;
+    padding-top: 80px;
+    background: #F3F3F3;
 }
 
-
 .touch__title {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     font-weight: bold;
     font-size: 40px;
     line-height: 57px;
@@ -460,9 +461,11 @@
 }
 
 .touch__desc {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    width: 470px;
     white-space: pre-line;
+    margin-bottom: 80px;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -470,32 +473,100 @@
     color: #737373;
 }
 
-.touch__row {
-    display: flex;
-    justify-content: space-around;
+.touch__container {
+    /*display: flex;*/
+    /*flex-direction: row;*/
 }
 
-.touch__item-choose i {
+.touch__row {
     display: flex;
     justify-content: center;
 }
 
-.touch__email {
+.touch__col-4 {
+    width: 328px;
+    height: 333px;
+    background: #fff;
+    margin: auto 0;
+    color: #252B42;
+}
+
+.touch__col-4:nth-child(2) {
+    background-color: #252B42;
+    color: inherit;
+    padding: 30px 0;
+}
+
+.touch__content {
+    padding: 50px 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.touch__content-item{
     display: flex;
+    flex-direction: column;
+}
+
+.touch__icon {
+    margin-bottom: 15px;
+}
+
+.touch__email {
+    color: #252B42;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
     text-align: center;
-    color: #252B42;
 }
 
-.touch__title-support {
-    display: flex;
+.get__support {
+    margin-top: 15px;
+    margin-bottom: 25px;
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+    align-items:center;
     color: #252B42;
+}
+
+.request__btn {
+    color: #252B42;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    border: 2px solid #FFA62B;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.touch__email-phone {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.get__support-phone {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    align-items:center;
+    color: #FFFFFF;
+}
+.request__btn-phone {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    border: 2px solid #FFA62B;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
 
 .consulting__container {
@@ -527,9 +598,10 @@
 
 
 /*BRANDS START*/
-#brands {
+.brands {
+    width: 1440px;
+    Height: 339px;
     background: #FAFAFA;
-    height: 238px;
 }
 
 .brands-container {
