@@ -446,8 +446,7 @@
 }
 
 .touch {
-    height: 808px;
-    padding-top: 80px;
+    padding: 80px 0 150px 0;
     background: #F3F3F3;
 }
 
@@ -569,12 +568,21 @@
     padding: 10px 20px;
 }
 
+#consulting {
+    padding: 40px 0;
+    background: #fff;
+}
 .consulting__container {
-    width: 100%;
+    padding: 40px 0;
+}
+.consulting__item {
+    display: flex;
+    justify-content: space-between;
 }
 
 .consulting__title {
-    display: flex;
+    display: block;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
@@ -588,14 +596,21 @@
     color: #737373;
 }
 
-.consulting__contact-touch {
+.consulting__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px;
+    position: static;
     width: 160px;
     height: 58px;
     left: 38px;
     background: #FFA62B;
     border-radius: 5px;
 }
-
+.consulting__break {
+    justify-content: space-between;
+}
 
 /*BRANDS START*/
 .brands {
@@ -624,10 +639,58 @@
     background: #252B42;
     height: 77px;
 }
-
-
 /*BRANDS END*/
 
+#foot__nav {
+    padding: 50px 0;
+    background:#16697A;
+}
+.item__links-title {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.item__links-list {
+    list-style-type: none;
+
+}
+.footer__container {
+    margin: 50px 195px 50px 195px;
+}
+.foot__row {
+    display: flex;
+}
+
+.foot__col-2 {
+    width: 20%;
+
+}
+.item__menu {
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer {
+    padding: 35px 0;
+    background: #FFFFFF;
+}
+.footer__item {
+    display: flex;
+    justify-content:space-between;
+
+}
+.footer__icon {
+    margin: 0 10px;
+
+}
 
 
 
